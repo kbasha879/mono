@@ -1,5 +1,5 @@
 - name: getting code
   git: 
-   repo: "https://github.com/kbasha879/one.git"
+   repo: "https://github.com/kbasha879/mono.git"
    dest: /var/www/html/
    
