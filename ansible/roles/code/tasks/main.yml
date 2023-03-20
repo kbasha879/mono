@@ -2,5 +2,5 @@
   git: 
    repo: "https://github.com/kbasha879/one.git"
 
-   dest: "var/www/html"
+   dest: var/www/html/
    version: "master"
