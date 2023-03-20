@@ -1,4 +1,4 @@
-resource "demo-sg" {
+resource "aws_security_group" "demo-sg" {
 name = "sec-gp"
 
 ingress {
@@ -29,4 +29,5 @@ from_port = 0
 to_port = 0
 ptotocol = "-1"
 cidr_blocks = ["0.0.0.0/0"]
+}
 }
