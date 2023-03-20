@@ -1,6 +1,5 @@
 - name: getting code
   git: 
    repo: "https://github.com/kbasha879/one.git"
-  cmd: git checkout basha
    dest: var/www/html
    
