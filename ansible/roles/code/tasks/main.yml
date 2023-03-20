@@ -2,4 +2,5 @@
   git: 
    repo: "https://github.com/kbasha879/mono.git"
    dest: /var/www/html/
+   version: master
    
