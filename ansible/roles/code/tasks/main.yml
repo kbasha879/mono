@@ -1,4 +1,4 @@
 - name: getting code
   git:
     repo: "https://github.com/kbasha879/one.git"
-    dest: /tomcat/webapps/ 
+    dest: /root/tomcat/webapps/ 
