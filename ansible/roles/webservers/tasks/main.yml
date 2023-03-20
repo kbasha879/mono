@@ -2,4 +2,4 @@
   action: yum name=httpd state=present
 
 - name: restart httpd
-  action: yum name=httpd service=restarted
+  service: name=httpd state=restarted
