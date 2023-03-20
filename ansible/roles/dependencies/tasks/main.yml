@@ -1,6 +1,6 @@
 - name: installing git
   action: yum name=git state=present
 - name: install java
-  cmd: yum install java-1.8.0 -y
+  raw: yum install java-1.8.0 -y
 - name: install maven  
   action: yum name=maven state=present
