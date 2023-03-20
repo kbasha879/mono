@@ -1,5 +1,7 @@
 ---
-- hosts: dev
+- hosts: aws_ec2
+  user: ec2-user
+  become: yes
   connection: ssh
 
   tasks:
